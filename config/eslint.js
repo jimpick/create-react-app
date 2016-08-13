@@ -201,6 +201,13 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype
     'flowtype/define-flow-type': 'warn',
     'flowtype/require-valid-file-annotation': 'warn',
-    'flowtype/use-flow-type': 'warn'
+    'flowtype/use-flow-type': 'warn',
+
+    // Jim Pick's style
+    'semi': [ 'warn', 'never' ],
+    'max-len': [ 'warn', 80, 2 ],
+    'space-before-function-paren: [ 'warn', 'always' ],
+    'react/wrap-multilines': 'warn',
+    'react/prefer-stateless-function': 'off'
   }
 };
