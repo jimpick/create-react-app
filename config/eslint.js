@@ -206,7 +206,7 @@ module.exports = {
     // Jim Pick's style
     'semi': [ 'warn', 'never' ],
     'max-len': [ 'warn', 80, 2 ],
-    'space-before-function-paren: [ 'warn', 'always' ],
+    'space-before-function-paren': [ 'warn', 'always' ],
     'react/wrap-multilines': 'warn',
     'react/prefer-stateless-function': 'off'
   }
